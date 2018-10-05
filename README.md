@@ -1,3 +1,6 @@
+![alt text](https://github.com/TheCodersDream/News-Angular-App-Metarial-Desing/blob/master/Screenshot_1.png)
+![alt text](https://github.com/TheCodersDream/News-Angular-App-Metarial-Desing/blob/master/Screenshot_2.png)
+![alt text](https://github.com/TheCodersDream/News-Angular-App-Metarial-Desing/blob/master/Screenshot_3.png)
 # NewsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.4.
