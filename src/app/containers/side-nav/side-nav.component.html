@@ -1,0 +1,17 @@
+<mat-sidenav-container class="example-container">
+
+  <mat-sidenav #sidenav class="example-sidenav">
+    <mat-list class="list-nav">
+      <mat-list-item class="list-item" *ngFor="let source of sources" (click)="searchArticles(source.id);sidenav.close();">
+
+        <div mat-card-avatar [ngStyle]="{'background-image': 'url(../assets/images/'+ source.id +'.png)'}" class="example-header-image"></div>
+
+        <span class="source-name"> {{source.name}}</span>
+
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+
+  <app-articles></app-articles>
+
+</mat-sidenav-container>
